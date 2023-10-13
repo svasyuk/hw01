@@ -1,0 +1,25 @@
+.cta-section {
+    display: flex;
+    margin-top: 100px;
+
+    &__content {
+        display: flex;
+        margin: 80px 300px;
+        justify-content: center;
+        // /* border */
+        border-radius: 33px;
+        background: #343434;
+        // /* shadow */
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+        justify-content: center;
+    }
+
+    .left-content {
+        display: flex;
+        padding: 17px 94px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 38px;        
+        justify-content: center;
+    }
+}
